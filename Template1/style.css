@@ -1,0 +1,564 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+.clear{
+    clear:both
+}
+/*end main rules*/
+
+/*start header*/
+/*start header container*/
+.main .headercontainer{
+    background:linear-gradient(rgba(25, 26, 91, 0.4),rgba(25, 26, 91, 0.4)),url('https://pestleanalysis.com/wp-content/uploads/2016/03/business-plan.jpg') fixed;
+    /*background:linear-gradient(rgba(25, 26, 91, 0.4),rgba(25, 26, 91, 0.4)) ,url("https://blog-assets.hootsuite.com/wp-content/uploads/2016/08/social-media-for-business-940x470.jpg") fixed;*/
+    width:100%;
+    background-size:cover;
+    overflow:hidden;
+    min-height:900px    
+}
+/*end header container*/
+
+/*start subheader1*/
+.subheader1{
+    float:left;
+    margin:20px 0 0 100px    
+}
+.main .headercontainer .subheader1 h1{
+    color:white;
+    font-size:43px;
+    font-family:sans-serif;
+    font-weight:200;
+    text-transform:capitalize
+}
+.main .headercontainer .subheader1 h1 span{
+    color:red
+}
+/*end subheader1*/
+
+/*start subheader2*/
+.subheader2{
+    float:right;
+    margin:20px 100px 0 0
+}
+.childsubheader2{
+    float:left;
+    margin-left:25px
+}
+.grandchildsubheader2{
+    float:left;
+    padding:10px
+}
+.grandchildsubheader2 p{
+    text-transform: capitalize;
+    color:white;
+    font-family:sans-serif;
+    font-size:14px;
+    font-weight:500
+}
+.grandchildsubheader2 p span{
+    text-transform:uppercase
+}
+/*end subheader2*/
+
+/*start subheader3*/
+.subheader3{
+    background-color:white;
+    margin:15px auto;
+    width:85%;
+    overflow:hidden;
+    padding:20px
+}
+.childsubheader3 div{
+    float:left;
+    padding:15px
+}
+.childsubheader3 div ul li{
+    list-style-type:none;
+    text-transform:capitalize   
+}
+.childsubheader3 div ul li a{
+    text-decoration: none;
+    color:black
+}
+.red{
+    color:red !important
+}
+.childsubheader3-2 {
+    float:right
+}
+.childsubheader3-2 div{
+    float:left;
+    padding:15px;
+    margin-right:10px
+}
+/*end subheader3*/
+
+/*start headerbody*/
+.headerbody{
+    margin:50px  auto;
+    width:85%
+}
+.txthb{
+    float:left;
+    color:white;
+    width:450px;
+    margin-top:100px
+}
+.txthb h2{
+    font-size: 46px;
+    font-family:Gelion Regular, sans-serif;
+    font-weight:400;
+    text-transform:capitalize;
+    margin-bottom:20px 
+}
+.txthb p{
+    font-size:20px;
+    line-height:1.5;
+    margin-bottom:50px
+}
+.txthb button{
+    width:125px;
+    height:42px;
+    background-color:#eB3948;
+    border:none;
+    border-radius:20px;
+    color:white;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-size:12px
+}
+button:hover{
+   background-color:#FC2D45 !important;
+   cursor:pointer
+}
+.bullet1{
+    height:355px;
+    width:555px;
+    background-color:transparent;
+    background-image: radial-gradient(white 2px,transparent 2px);
+    background-size:20px 20px;
+    float:right;
+    margin-right:55px
+}
+.bullet2{
+    background-image:url("https://onedigiclick.com/wp-content/uploads/2019/08/GettyImages-907736222-5bd818fa46e0fb0051685a1b-10.jpg");
+    background-size:cover;
+    width:550px;
+    height:350px;
+    overflow: hidden;
+    position:relative;
+    left:60px;
+    top:60px
+}
+/*end headerbody*/
+/*end header*/
+
+/*start body section*/
+/*start service section*/
+/*start subbody1*/
+.body{
+    min-height:680px;
+    overflow:hidden
+}
+.body .subbody1{
+    text-align:center;
+    margin:100px auto 50px ;
+    width:700px
+}
+.body .subbody1 h5{
+    text-transform:uppercase;
+    opacity:0.2;
+    font-family:sans-serif;
+    font-size:12px;
+    margin-bottom:15px
+}
+.body .subbody1 h3{
+    font-family:sans-serif;
+    opacity:0.7;
+    font-size:32px;
+    font-weight:600 
+}
+/*end subbody1*/
+
+/*start subbody2*/
+.subbody2{
+    width:85%;
+    margin:0 auto
+}
+.subbody2child{
+    width:33.33%;
+    float:left
+}
+.subbody2grandchild{
+    margin:15px;
+    background-color:#EDF7FF;     
+    height:230px;
+    padding:40px 30px
+}
+.subbody2grandchild h4{
+    margin:15px 0;
+    text-transform:capitalize;
+    font-family:sans-serif;
+    font-size:16px;
+    font-weight:600;
+    opacity:0.6  
+}
+.subbody2grandchild p{
+    opacity:0.5;
+    line-height:1.5
+}
+/*end subbody2*/
+
+/*start bodybutton*/
+.bodybutton{
+    text-align:center;
+    margin:30px 0 120px
+}
+.bodybutton button{
+    width:210px;
+    height:42px;
+    background-color:#eB3948;
+    border:none;
+    border-radius:20px;
+    color:white;
+    letter-spacing:3px;
+    text-transform: uppercase;
+    font-size:12px
+}
+/*end bodybutton*/
+/*end service section*/
+
+/*start skills(partner and skills) container*/
+/*start partner section*/
+.skillscontainer{
+    background-color:#F6F5F5;
+    min-height:550px;
+    width:100% 
+}
+.skillscontainer .container{
+    width:85%;
+    margin:0 auto;
+    overflow:hidden
+}
+.partnerp{
+    width:450px;
+    margin-top:120px
+}
+.partnerp .firstp{
+    margin-bottom: 30px;
+    font-size:20px;
+    font-weight:600;
+    opacity:0.6;
+    font-family:sans-serif   
+}
+.partnerp .secondp{
+    line-height:1.5;
+    font-size:15px;
+    font-weight:600;
+    opacity:0.5 ;
+    font-family:Gelion Regular, sans-serif
+}
+.partnersig img{
+    width:200px;
+    height:175px
+}
+.partnero, .partnersig{
+    float:left
+}
+.partnero{
+    margin:70px 0 0 20px
+}
+.partnero p:first-child{
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight:600;
+    font-family:Gelion Regular, sans-serif;
+    opacity:0.8
+}
+.partnero p:nth-child(2){
+    opacity:0.7
+}
+/*end partner section*/
+
+/*start skills section*/
+.partner, .skills{
+    float:left   
+}
+.skills{
+    margin:120px 0 0 120px
+}
+.skills>div>p{
+    font-size:20px;
+    font-family:Gelion Regular, sans-serif;
+    opacity:0.8
+}
+.skills>.prog>div>p{
+    font-size:20px;
+    opacity:0.7;
+    text-transform:capitalize
+}
+.skills .prog{
+    margin-top:30px
+}
+.skills .prog .progress{
+    background-color:#E9ECEF;
+    height:7px;
+    width:550px;
+    margin-top:5px
+}
+.skills .prog .oprog{
+    float:left
+}
+.skills .prog .oprog2{
+    float:right
+}
+.innerprogress1, .innerprogress2, .innerprogress3, .innerprogress4{
+    background-color:#eB3948;
+    height:100%  
+}
+.innerprogress1{
+    width:55%
+}
+.innerprogress2{
+    width:85%
+}
+.innerprogress3{
+    width:93%
+}
+.innerprogress4{
+    width:83%
+}
+/*end skills section*/
+/*end skills(partner and skills) container*/
+
+/*start journey section*/
+/*start journey1*/
+.journey1{
+    background:linear-gradient(rgba(25, 26, 91, 0.4),rgba(25, 26, 91, 0.4)),url('https://pestleanalysis.com/wp-content/uploads/2016/03/business-plan.jpg') fixed;
+    background-size:cover;
+    min-height:360px;
+    overflow:hidden;
+    border-bottom:7px solid black
+}
+.journey1 div{
+    margin:100px auto;
+    text-align:center;
+    width:500px
+}
+.journey1 div p:first-child{
+    color:white;
+    font-size:22px;
+    font-family: sans-serif
+}
+.journey1 div p:nth-child(2){
+    margin-top:20px;
+    color:white;
+    font-weight:500;
+    font-size:30px
+}
+/*end journey1*/
+
+/*start journey2*/
+.journey2{
+    min-height:200px;
+    background-color:#222222;
+    overflow:hidden
+}
+.subjourney2{
+    width:80%;
+    margin:80px auto
+}
+.journey2box{
+    float:left;
+    width:33.33%;
+    padding:30px
+}
+.journey2box .endbox{
+    float:left;
+    margin-left:20px
+}
+.journey2box .endbox i{
+    margin-top:3px
+}
+.endbox .building{
+    font-size:48px;
+    background: white;
+    border-top:3px solid white;
+    border-left:3px solid white;
+    border-bottom:3px solid white;
+    color:#222222
+}
+.endbox p:first-child{
+    color:#FFD692;
+    font-size:36px
+}
+.endbox p:last-child{
+    color:#B8B8B8;
+    font-weight:bold
+}
+/*end journey2*/
+/*end journey section*/
+
+/*start news section*/
+.newscontainer{
+    padding-top:100px;
+    padding-bottom:50px;
+    background-color:#F6F5F5;
+}
+.newscontainer .text{
+    text-align:center
+}
+.newscontainer .text p:first-of-type{
+    color:#DC3444;
+    font-size:36px;
+    font-weight:500;
+    font-family:sans-serif;
+    margin-bottom:20px;
+    text-transform: capitalize
+}
+.newscontainer .text p:last-of-type{
+    font-size:20px;
+    opacity:0.9;
+    width:500px;
+    font-family:sans-serif;
+    margin: 0 auto
+    
+}
+.shortline{
+    border-bottom: solid 2px #DC3444;
+    width:60px;
+    margin:0 auto 25px
+}
+.sc{
+    width:85%;
+    overflow: hidden;
+    margin:0 auto;
+    position: relative;
+    height:600px
+}
+.slidescontainer{  
+    width:200%;
+    margin-top:85px
+    
+}
+.slidescontainer .slide{
+    width:50%;
+    float: left;
+    transition:0.6s
+}
+.slidescontainer .slide div{
+    width:33.3%;
+    height:500px;
+    float:left;
+    padding:12px
+}
+.slidescontainer .slide div img{
+    width:100%;
+    height:100%
+}
+.navigation{
+    display:flex;
+    margin-left:650px;
+    margin-top:20px
+}
+.bar{
+    width:7px;
+    height:7px;
+    border-radius:50%;
+    margin:6px;
+    cursor: pointer;
+    transition:0.4s;
+    background-color:#CCCCCC
+}
+.bar:hover{
+    background-color:#DC3444
+}
+#r1:checked .bar{
+    background-color:#DC3444
+}
+input[name="r"]{
+    visibility:hidden
+}  
+#r1:checked ~.s1{
+    margin-left:0
+}
+#r2:checked ~.s1{
+    margin-left:-50%
+}
+/*end news section*/
+
+/*start more services section*/
+.moreservicecontainer{
+     background:linear-gradient(rgba(25, 26, 91, 0.7),rgba(25, 26, 91, 0.7)),url('https://pestleanalysis.com/wp-content/uploads/2016/03/business-plan.jpg') fixed;
+     padding-top:120px;
+     padding-bottom:150px
+}
+.serviceheader{
+    margin-bottom:70px
+}
+.serviceheader p:first-of-type{
+    text-align:center;
+    color:white;
+    font-size:36px;
+    text-transform:capitalize;
+    font-family:sans-serif;
+    margin-bottom:20px
+}
+.serviceheader p:last-of-type{
+    text-align:center;
+    color:white;
+    font-size:20px;
+    font-family: sans-serif;
+    width:630px;
+    margin:42px auto;
+}
+.moreserviceparent{
+    width:85%;
+    margin:0 auto
+    
+}
+.moreservicebox{
+    width:100%;
+    text-align:center;
+    margin-top: 40px
+}
+.moreiconbox{
+    float:left;
+    width:33.33%
+}
+.moreiconbox div i{
+    font-size:2.5em;
+    border-radius: 50%;
+    border:4px solid #DC3444;
+    color: white;
+    line-height: 2em;
+    width: 2em;
+    height: 2em;
+    text-align:center;
+    display:inline-block
+}
+.moreiconbox div i:hover{
+    background-color:rgba(255, 255, 255, 0.4);
+    cursor:pointer
+}
+.moreiconbox div{
+    margin-bottom:20px
+}
+.moreiconbox p:first-of-type{
+    color:white;
+    text-transform:capitalize;
+    font-size:18px;
+    font-family: sans-serif;
+    margin-bottom: 10px
+}
+.moreiconbox p:last-of-type{
+   color:#7F8187;
+   font-weight:800;
+   line-height: 1.5;
+   width:300px;
+   margin:0 auto;
+
+}
+
